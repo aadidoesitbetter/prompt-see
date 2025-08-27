@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CamTalk</title>
+</head>
+<body style="display:flex;flex-direction:column;align-items:center;gap:1rem;">
+  <h1>CamTalk</h1>
+  
+  <video id="video" autoplay playsinline width="400"></video>
+  <canvas id="canvas" style="display:none;"></canvas>
+
+  <input id="prompt" type="text" placeholder="Type your prompt..." style="width:300px;">
+  <button id="capture">Capture & Analyze</button>
+
+  <div>
+    <h3>AI Reply:</h3>
+    <p id="reply">--</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

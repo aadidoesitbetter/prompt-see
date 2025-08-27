@@ -1,0 +1,1 @@
+A simple tool that looks through your camera and replies with smart captions to your prompts built with FastAPI, Hugging Face, and JavaScript.
